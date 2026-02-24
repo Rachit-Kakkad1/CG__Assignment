@@ -31,7 +31,7 @@ This project implements a fully functional REST API using **Express.js** to mana
 
 ## 🚀 Live Demo & Documentation
 
-- **🚀 Render Deployment**: [Insert Render Deployment URL Here]
+- **🚀 Render Deployment**: [https://cgpa-api-l6ae.onrender.com/](https://cgpa-api-l6ae.onrender.com/)
 - **📚 Postman Documentation**: [Insert Postman Workspace URL Here]
 
 *(Note: Replace the links above with your actual deployment and documentation URLs)*
