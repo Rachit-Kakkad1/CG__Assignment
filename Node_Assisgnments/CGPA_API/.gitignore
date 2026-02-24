@@ -1,2 +1,33 @@
-node_modules
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
 .env
+.env.local
+.env.development.local
+
+# IDEs
+.vscode/
+.idea/
+
+# AV & Media Assets (Add/Remove extensions as needed)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.raw
+*.tmp
+
+# System Files
+.DS_Store
+Thumbs.db
