@@ -32,7 +32,7 @@ This project implements a fully functional REST API using **Express.js** to mana
 ## 🚀 Live Demo & Documentation
 
 - **🚀 Render Deployment**: [https://cgpa-api-l6ae.onrender.com/](https://cgpa-api-l6ae.onrender.com/)
-- **📚 Postman Documentation**: [Insert Postman Workspace URL Here]
+- **📚 Postman Documentation**: [https://documenter.getpostman.com/view/50840748/2sBXcGCz65](https://documenter.getpostman.com/view/50840748/2sBXcGCz65)
 
 *(Note: Replace the links above with your actual deployment and documentation URLs)*
 
@@ -95,11 +95,11 @@ npm start
 
 ```text
 📦 student-cgpa-api
- ┣ 📜 index.js         # Main application entry point & routing logic
- ┣ 📜 package.json     # Project metadata and dependencies
- ┣ 📜 package-lock.json# Dependency tree lockfile
- ┣ 📜 .gitignore       # Git exclusion rules
- ┗ 📜 README.md        # Project documentation
+ ┣ 📜 index.js           # Main application entry point & routing logic
+ ┣ 📜 package.json       # Project metadata and dependencies
+ ┣ 📜 package-lock.json  # Dependency tree lockfile
+ ┣ 📜 .gitignore         # Git exclusion rules
+ ┗ 📜 README.md          # Project documentation
 ```
 
 ---
