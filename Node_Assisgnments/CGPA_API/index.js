@@ -182,7 +182,7 @@ app.get("/students/average", (req, res) => {
         total += students[i].cgpa;
     }
     let average = total / students.length;
-    res.send(average);
+    res.send(average.toFixed(2));
     res.status(200);
 })
 
