@@ -168,6 +168,10 @@ let products = [
     },
 ];
 
+app.get("/", (req, res) => {
+    res.status(200).send({ message: "Welcome to the E-Commerce API" });
+});
+
 
 app.get("/products", (req, res) => {
     res.status(200).send(products);
