@@ -30,7 +30,13 @@ This project implements a fully functional REST API using **Express.js** to mana
 
 ---
 
-## 🛤️ Implemented Routes (API Reference)
+## � Live Demo & Documentation
+
+- **📚 Postman Documentation**: [https://documenter.getpostman.com/view/50840748/2sBXcGEzfz](https://documenter.getpostman.com/view/50840748/2sBXcGEzfz)
+
+---
+
+## �🛤️ Implemented Routes (API Reference)
 
 | Method | Endpoint | Description | Status Code |
 | :--- | :--- | :--- | :--- |
