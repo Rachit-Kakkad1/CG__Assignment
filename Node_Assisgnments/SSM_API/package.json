@@ -1,0 +1,15 @@
+{
+  "name": "ssm_api",
+  "version": "1.0.0",
+  "description": "Designing and implementing a complete REST API using Express.js to manage statistical data of Indian states using an in-memory JSON array.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Rachit Kakkad",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
