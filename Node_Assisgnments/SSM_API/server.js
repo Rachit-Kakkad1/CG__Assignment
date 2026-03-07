@@ -5,6 +5,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+console.log("Hey there")
 
 const states = [
   { id: 1, name: "Andhra Pradesh", population: 49386799, literacyRate: 67.02, annualBudget: 279279, gdp: 14000000 },
@@ -38,13 +39,14 @@ const states = [
 ];
 
 app.use("/", (req, res) => {
-    res.send("Welcome to the State Management System API!")
+    console.log(states)
+    res.json(states)
 });
 
 app.use("/states", (req, res) => {
-    res.status(200)
-    res.send(states)
-});
+   res.send(states)
+})
+
 
 app.use("/states/:id", (req, res) => {
     const state = states.find((state) => state.id === parseInt(req.params.id));
@@ -72,5 +74,5 @@ app.get("/states/highest-gdp", (req, res) => {
     res.send(highestGdpState);
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
